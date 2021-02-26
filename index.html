@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week Checklist</title>
+  </head>
+  <body>
+    <style media="screen">
+    body{
+      font-family: 'Lato', sans-serif;
+      text-align: center;
+      margin: 0;
+    }
+    section{
+      background: #F7F3ED;
+      max-width: 880px;
+      margin: auto;
+      padding: 30px 0 20px 0;
+    }
+    main{
+      display: flex;
+      flex-flow: row wrap;
+    }
+    main div{
+      display: inline-block;
+      width: calc(50% - 146px);
+      margin: 20px 70px;
+      position: relative;
+      margin-top: 0;
+    }
+    main div img{
+      width: 70px;
+      height: auto;
+      position: absolute;
+      left: -70px;
+      top: 50%;
+      transform: translateY(-40%);
+    }
+    h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+    }
+    h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    }
+    h3{
+      text-transform: uppercase;
+      text-align: left;
+      color: #EF7C3D;
+    }
+    p{
+      color: black;
+      font-size: 14px;
+    text-align: left;
+    }
+    p span{
+      font-weight: 400;
+    }
+    div + p{
+      margin-top: 80px;
+      padding: 0 70px;
+    }
+    a{
+      color: grey;
+      text-align: left;
+      text-decoration: none;
+    }
+    a:hover{
+      color: #EF7C3D;
+    }
+
+    @media (max-width:991px) {
+      main{
+        display: block;
+
+      }
+      main div{
+        display: block;
+            width: calc(100% - 146px);
+
+      }
+    }
+
+    </style>
+    <section>
+      <h1>This weeks checklist</h1>
+      <h2>Spending about 1-2 hours to get setup</h2>
+      <main>
+        <div class="">
+          <h3>1. Watch new student orientation</h3>
+          <p>Now that you're a part of the Sponsored and Secured family. I want to walk you step-by-step through what you should expect throughout the cours</p>
+          <p><a href="#">Click here</a> to watch the video.</p>
+          <img src="https://i.ibb.co/LdwFc0m/1.png" alt="icon">
+        </div>
+        <div class="">
+          <h3>2. join the sponsored and secured students only facebook group</h3>
+          <p>This is wehre the magic happens! All of invest with Teri instructors, Trade and Travel students, and I am here to answer questions, <br>
+          strategiz on trades, and grow our accounts together.</p>
+          <p><a href="#">Click here</a> to join the group.</p>
+          <img src="https://i.ibb.co/XjgHpLw/3.png" alt="icon">
+        </div>
+        <div class="">
+          <h3>3. Make a copy of the success roadmap</h3>
+          <p>We've created an awesome roadmap that guides you through each module of the coursework to not only complete the course but also apply it starting today.</p>
+          <p><a href="#">Grab</a> a copy of the SSC Success Checklist.</p>
+          <img src="https://i.ibb.co/Yf9v0pd/2.png" alt="icon">
+        </div>
+        <div class="">
+          <h3>4. Complete student demographics survey</h3>
+          <p>We love to get to know our students and a great way to do this from the beginning is with our new student questionnaire</p>
+          <p><a href="#">Complete</a> the new students questionnaire.</p>
+          <img src="https://i.ibb.co/mvBJ0DQ/4.png" alt="icon">
+        </div>
+        <p>
+          <span>Notes:</span>
+          Thank you for taking the tiem to coplete the survey. We would like to start hosting live conferences to teach the course, and the demographics help use to know ehere our studentrs are located and secure potential sponsors.
+        </p>
+      </main>
+
+    </section>
+  </body>
+</html>
